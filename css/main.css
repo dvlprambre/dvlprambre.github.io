@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -23,6 +24,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
+    font-family: 'Comfortaa', cursive;
 }
 p {
     font-size: 1.5em;
