@@ -1,10 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    margin: 60px auto;
-    width: 70%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 60px auto auto 0px;
+    width: 100%;
+}
+
+.container {
+        
+}
+
+nav{
+     width: 100%;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.70)
 }
 nav ul, footer ul {
     padding: 0px;
@@ -24,16 +35,19 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family: 'Comfortaa', cursive;
 }
+
+h3 {text-align: center}
 p {
-    font-size: 1.5em;
+    font-size: 1.0em;
     line-height: 1.4em;
     color: #333;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    background-color: #f5eceb;
+    height: 100px
 }
 
 ul.posts { 
@@ -43,4 +57,62 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.container p{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px;
+    background-color: rgba(255, 255, 255, 0.70)
+}
+.blurb, .one, .two, .three {
+    height: 500px;
+    padding:150px 25px;
+    
+}
+
+.blurb{
+    text-align: center;
+    background-color: #FBF9F8
+}
+.one{
+    background-color: #f5eceb
+}
+
+.two{
+    background-color: #fff
+}
+
+.three{
+ background-size: 40px 40px;
+    background-image: linear-gradient(to right, #aeaeae 1px, transparent 1px), linear-gradient(to bottom, #aeaeae 1px, transparent 1px);
+}
+
+.row{
+
+}
+
+.left-col {
+  padding: 10px;
+  float:left;
+  width:48%;
+}
+.right-col {
+  padding: 10px;
+  float:left;
+  width:48%;
+}
+
+.right-col img, .left-col img{
+     display:block;
+    margin:auto;
+    max-width:100%;
+    height: auto
+}
+
+@media (max-width:800px) {
+  .left-col, .right-col {
+    width:100%;
+  }
 }
