@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
 
+
+header, nav, footer, section {
+    overflow: hidden
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 60px auto auto 0px;
@@ -10,8 +15,9 @@ body {
         
 }
 
+
 nav{
-     width: 100%;
+    width: 100%;
     text-align: center;
     position: fixed;
     top: 0;
@@ -26,18 +32,33 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
+
+
 a {
     text-decoration: none;
-    color: #999;
+    color: #000;
 }
 a:hover {
     text-decoration: underline;
+    color: #c79e53;
+}
+
+footer a {
+    color: black
+}
+
+h1, h3 {
+        color: #c79e53;
 }
 h1 {
     font-size: 3em;
 }
 
-h3 {text-align: center}
+h3 {
+    font-size: 2.5em;
+    text-align: center
+}
+
 p {
     font-size: 1.0em;
     line-height: 1.4em;
@@ -47,7 +68,15 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     background-color: #f5eceb;
-    height: 100px
+    height: 200px;
+    text-align: center
+}
+
+footer p {
+    color: black;
+    border: 2px solid #fff;
+    padding: 30px 60px;
+    margin: 30px 75px;
 }
 
 ul.posts { 
@@ -59,17 +88,22 @@ ul.posts li {
     list-style: none;
 }
 
-.container p{
+section p{
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding: 60px;
     background-color: rgba(255, 255, 255, 0.70)
 }
+
+section{
+   
+}
+
 .blurb, .one, .two, .three {
-    height: 500px;
-    padding:150px 25px;
-    
+     min-height: 500px;
+    padding:100px 25px;
+
 }
 
 .blurb{
@@ -94,25 +128,36 @@ ul.posts li {
 }
 
 .left-col {
-  padding: 10px;
+  padding: 5px;
   float:left;
-  width:48%;
+  width:33%;
 }
 .right-col {
-  padding: 10px;
+  padding: 5px;
   float:left;
-  width:48%;
+  width:31%;
 }
 
-.right-col img, .left-col img{
-     display:block;
-    margin:auto;
-    max-width:100%;
-    height: auto
+.mid-col {
+   padding: 5px;
+  float:left;
+  width:33%; 
 }
+
+img {
+    display:block;
+    margin:auto;}
+
 
 @media (max-width:800px) {
-  .left-col, .right-col {
+    
+    .blurb, .one, .two, .three {
+    height:100%
+}
+  .left-col, .mid-col, .right-col {
     width:100%;
+  }
+   .mid-col img, .left-col img, .right-col img {
+    max-width:100%;
   }
 }
