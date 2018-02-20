@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300');
 
+ html, body {
+        height: 100%;
+        margin: 0px;
+    }
 
 header, nav, footer, section {
     overflow: hidden
@@ -12,7 +16,7 @@ body {
 }
 
 .container {
-        
+         height: 100%;
 }
 
 
@@ -101,7 +105,7 @@ section{
 }
 
 .blurb, .one, .two, .three {
-     min-height: 500px;
+     min-height: 100%;
     padding:100px 25px;
 
 }
@@ -130,19 +134,15 @@ section{
 .left-col {
   padding: 5px;
   float:left;
-  width:33%;
+  width:48%;
 }
 .right-col {
   padding: 5px;
   float:left;
-  width:31%;
+  width:48%;
 }
 
-.mid-col {
-   padding: 5px;
-  float:left;
-  width:33%; 
-}
+
 
 img {
     display:block;
@@ -160,4 +160,8 @@ img {
    .mid-col img, .left-col img, .right-col img {
     max-width:100%;
   }
+    .container {
+         height:auto;
+}
+
 }
