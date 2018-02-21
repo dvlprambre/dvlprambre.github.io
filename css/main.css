@@ -40,8 +40,14 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #000;
+    color: #c79e53;
 }
+
+li a {
+    color: black
+}
+
+
 a:hover {
     text-decoration: underline;
     color: #c79e53;
@@ -72,11 +78,11 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     background-color: #f5eceb;
-    height: 200px;
+    height: 150px;
     text-align: center
 }
 
-footer ul {
+footer p {
     color: black;
     border: 2px solid #fff;
     padding: 30px 60px;
@@ -92,17 +98,16 @@ ul.posts li {
     list-style: none;
 }
 
-section p{
+
+.frost {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     padding: 60px;
-    background-color: rgba(255, 255, 255, 0.70)
+    background-color: rgba(255, 255, 255, 0.70);
+    overflow:auto
 }
 
-section{
-   
-}
 
 .blurb, .one, .two, .three {
      min-height: 100%;
@@ -127,9 +132,6 @@ section{
     background-image: linear-gradient(to right, #aeaeae 1px, transparent 1px), linear-gradient(to bottom, #aeaeae 1px, transparent 1px);
 }
 
-.row{
-
-}
 
 .left-col {
   padding: 5px;
@@ -148,6 +150,26 @@ img {
     display:block;
     margin:auto;}
 
+img.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px
+    
+}
+
+input[type="submit"]  {
+    color: white;
+    padding: 5px;
+ border: 0;
+ background: #c79e53;
+ box-shadow: none;
+ border-radius: 5px;
+}
+
+form {
+    padding-left: 30px
+}
 
 @media (max-width:800px) {
     
