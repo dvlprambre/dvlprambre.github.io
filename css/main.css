@@ -162,11 +162,6 @@ img.me {
     
 }
 
-input {
-  display: inline-block;
-  float: left;
-}
-
 input[type="submit"]  {
     color: white;
     padding: 8px;
