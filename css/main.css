@@ -150,6 +150,26 @@ img {
     display:block;
     margin:auto;}
 
+img.me {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px
+    
+}
+
+input[type="submit"]  {
+    color: white;
+    padding: 5px;
+ border: 0;
+ background: #c79e53;
+ box-shadow: none;
+ border-radius: 5px;
+}
+
+form {
+    padding-left: 30px
+}
 
 @media (max-width:800px) {
     
