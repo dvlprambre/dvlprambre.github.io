@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=Maitree:200,300,400');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400');
 
  html, body {
         height: 100%;
         margin: 0px;
-        background-color: #F8F1E5;
-        font-weight: 300
+        background-color: #fff;
+        font-weight: 300;
+     color: #2f2f2f
+        
     }
 
 header, nav, footer, section {
@@ -12,27 +14,45 @@ header, nav, footer, section {
 }
 
 body {
-    font-family: 'Maitree', Georgia, serif;
-    margin: 60px auto auto 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0px auto auto 0px;
     width: 100%;
 }
+
+.heading, .heading p {
+    margin-top: 200px;
+    color: #fff
+}
+
+.sub {text-align: center}
 
 .container {
          height: 100%;
 }
 
-
 nav{
     width: 100%;
-    text-align: center;
+    text-align: right;
     position: fixed;
     top: 0;
-    background-color: rgba(255, 255, 255, 0.60)
+    background-color: rgba(255, 255, 255, 0.50)
+}
+
+.left {
+     float: left;
+}
+
+nav {
+    
 }
 nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto
+    
 }
 nav ul li, footer ul li {
     display: inline;
@@ -42,7 +62,12 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #D59091;
+    font-weight: 400;
+    color: #2f2f2f
+}
+
+a:hover {
+    text-decoration: none
 }
 
 li a {
@@ -52,15 +77,24 @@ li a {
 
 a:hover {
     text-decoration: underline;
-    color: #D59091;
+    
 }
 
 footer a {
     color: black
 }
 
-h1, h2 {
-    color:#D59091
+h1, h2, h3 {
+    font-weight: 300
+}
+
+h1 {
+    color: white;
+    
+}
+
+h2 {
+    color:#2f2f2f
         
 }
 h1 {
@@ -80,11 +114,12 @@ p {
 footer {
     font-size: .8em;
     height: 150px;
-    text-align: center
+    text-align: center;
+    background-color: #2f2f2f
 }
 
 footer p {
-    color: black;
+    color: white;
     border: 2px solid #fff;
     padding: 30px 60px;
     margin: 30px 75px;
@@ -106,7 +141,6 @@ ul.posts li {
     margin-left: auto;
     margin-right: auto;
     padding: 60px;
-    background-color: rgba(255, 255, 255, 0.60);
     overflow:auto
 }
 
@@ -117,22 +151,24 @@ ul.posts li {
 }
 
 .blurb{
+    background-color: #2f2f2f;
     text-align: center;
-    /*background-color: #FBF9F8*/
+    
+        background-repeat: no-repeat;
+    background-size: cover
+
     
 }
 .one{
-    /*background-color: #E2D7D58*/
-    background-color: rgba(255, 255, 255, 0.60)
+    background-color: #d9d6d5
 }
 
 .two{
-    /*background-color: #fff*/
     
 }
 
 .three{
-background-color: rgba(255, 255, 255, 0.60)
+    background-color: #EDE9E8
 }
 
 
@@ -155,27 +191,89 @@ img {
 
 img.me {
     display: block;
+    float: left;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 60px;
     border-radius: 100px;
-    margin-bottom: 40px
+    margin-bottom: 40px;
+   
     
 }
 
-input[type="submit"]  {
-    color: white;
-    padding: 8px;
- border: 0;
- background: #D59091;
- box-shadow: none;
- border-radius: 5px;
+.example {
+    margin-bottom: 20px
 }
+
+input[type="submit"]  {
+    color: #2f2f2f;
+    padding: 8px;
+  border: 2px solid #2f2f2f;
+ background: transparent;
+ box-shadow: none;
+ border-radius: 3px;
+}
+
+.learn {
+     color: #fff;
+    padding: 8px;
+  border: 2px solid #fff;
+ background: transparent;
+ box-shadow: none;
+ border-radius: 3px;
+}
+
+
 
 form {
     padding-left: 30px
 }
 
+.bankers img {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    position: relative;
+}
+
+.bankers img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.tooltip {
+    position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+     position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
 @media (max-width:800px) {
+    
+    nav {
+        text-align: center
+    }
+    
+    .left {
+        display: none
+    }
+    img.me {
+        float: none;
+        margin-right: auto
+    }
     
     .blurb, .one, .two, .three {
     height:100%
