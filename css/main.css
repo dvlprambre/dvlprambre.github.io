@@ -186,7 +186,11 @@ ul.posts li {
 
 img {
     display:block;
-    margin:auto;}
+    margin:auto;
+    
+    max-width: 100%;
+    height: auto;
+    }
 
 img.me {
     display: block;
