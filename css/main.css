@@ -153,7 +153,6 @@ ul.posts li {
 .blurb{
     background-color: #2f2f2f;
     text-align: center;
-    
         background-repeat: no-repeat;
     background-size: cover
 
@@ -194,7 +193,7 @@ img.me {
     float: left;
     margin-left: auto;
     margin-right: 60px;
-    border-radius: 100px;
+    border-radius: 140px;
     margin-bottom: 40px;
    
     
@@ -266,7 +265,9 @@ form {
     nav {
         text-align: center
     }
-    
+    .heading, .heading p {
+    margin-top: 50px;
+        }
     .left {
         display: none
     }
