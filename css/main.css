@@ -212,6 +212,12 @@ input[type="submit"]  {
  border-radius: 3px;
 }
 
+input[type="text"], [type="email"]
+{
+      width: 200px;
+        clear: both;
+}
+
 .learn {
      color: #fff;
     padding: 8px;
@@ -246,10 +252,11 @@ form {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: transparent;
+    color: #2f2f2f;
     text-align: center;
     padding: 5px 0;
+    border: 1px solid #2f2f2f;
     border-radius: 6px;
      position: absolute;
     z-index: 1;
@@ -259,6 +266,7 @@ form {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
 
 @media (max-width:800px) {
     
