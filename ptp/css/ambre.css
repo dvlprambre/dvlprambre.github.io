@@ -25,7 +25,8 @@
 
 
 .gradient {
-    background-image: linear-gradient(to right, #662d91 , #9e1f63);
+	background: #662d91; /* Old browsers */
+   	background-image: linear-gradient(to right, #662d91 , #9e1f63);
 
 }
 
