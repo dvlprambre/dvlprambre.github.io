@@ -6,12 +6,20 @@
 
 
  html, body {
+<<<<<<< HEAD
         height: 100%;
         margin: 0px;
         background-color: #fff;
         color: #2f2f2f;
       font-family: 'Open Sans', sans-serif;
     font-weight: 300;
+=======
+      height: 100%;
+      margin: 0px;
+      background-color: #fff;
+      font-weight: 300;
+      color: #2f2f2f
+>>>>>>> 7a41accd55e3a02bdfa71b899f66d53afa988ee2
         
     }
 
@@ -23,6 +31,7 @@ body {
    
     margin: 0px auto auto 0px;
     width: 100%;
+   font-size: 1.2rem
 }
 
 .site-title {

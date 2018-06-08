@@ -1,0 +1,140 @@
+.relative{
+    position:relative; 
+    width:100%;
+}
+.absolute-text{
+    position:absolute; 
+    bottom:40%;
+    padding:10px 20px; 
+    width:100%; 
+    text-align:center;
+}
+
+.col-left, .col-right{
+    width: 48%;
+}
+
+.col-left {
+    float: left;
+}
+
+.col-right{
+    float: right;
+    
+}
+
+
+.gradient {
+	background: #662d91; /* Old browsers */
+   	background-image: linear-gradient(to right, #662d91 , #9e1f63);
+
+}
+
+.ptb-60px {
+    padding: 40px 0px
+}
+
+.ptb-40px {
+    padding: 40px 0px
+}
+
+.transform {
+    display:block
+}
+
+.ptp-table {
+  		display: table;
+	}
+	.ptp-table-row {
+	  display: table-row;
+        float:none;
+       
+	}
+
+
+	.ptp-table-cell {
+	  display: table-cell;
+    vertical-align: top;
+        height: 200px
+	}
+	
+.transform-widget {
+    padding: 100px 0px;
+}
+
+.osu-logo {
+    padding: 30px
+}
+
+.ptb-10px {
+    padding: 10px 0px;
+}
+
+.bg-9e1f63 {
+    background-color: #9e1f63
+}
+
+.pt-30px {
+    padding-top: 30px
+}
+
+.lh-30px {
+    line-height: 30px;
+}
+
+.pb-10px {
+    padding-bottom: 10px;
+}
+
+.l-title-width p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.pt-20px{
+    padding-top: 20px
+}
+
+.mt-40px {
+    margin-top:40px
+}
+
+
+@media only screen and (max-width: 840px) {
+    
+.transform-widget {
+    padding:50px 0px;
+}
+    
+.plr-15px {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+   .col-left, .col-right{
+    width: 100%;
+}
+    
+    .ptp-br {
+    display: none;
+}
+       
+    
+   h3.absolute-text{
+        font-size: 20px;
+    position:absolute; 
+    margin-top: auto;
+       margin-bottom: auto;
+       padding: 0px 0px;
+    width:100%; 
+    text-align:center;
+}
+    
+    .ptp-table-cell {
+
+    height: 100%;
+    padding-bottom: 20px;
+}
+    
+    }
+
+
