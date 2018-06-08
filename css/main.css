@@ -227,10 +227,19 @@ input[type="submit"]  {
 
 }
 
-input[type="text"], [type="email"]
-{
-      width: 200px;
-        clear: both;
+input[type=text],  [type="email"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
 }
 
 .learn {
