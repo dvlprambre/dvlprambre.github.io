@@ -261,6 +261,7 @@ form {
     opacity: 1.0;
     filter: alpha(opacity=100); /* For IE8 and earlier */
     position: relative;
+    z-index: -1
 }
 
 .bankers img:hover {
