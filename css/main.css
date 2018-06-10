@@ -221,10 +221,14 @@ img.me {
 input[type="submit"]  {
     color: #fff;
     padding: 10px 20px;
-  border: 1px solid #8d9dac;
- background: #8d9dac;
- box-shadow: none;
+    border: 1px solid #8d9dac;
+    background: #8d9dac;
+    box-shadow: none;
 
+}
+
+input[type="submit"]:hover {
+    background: #6e7b86;
 }
 
 input[type=text],  [type="email"], select, textarea {
@@ -233,7 +237,6 @@ input[type=text],  [type="email"], select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
-
 
 
 
@@ -250,8 +253,6 @@ label {
  box-shadow: none;
  border-radius: 3px;
 }
-
-
 
 form {
     padding-left: 30px
