@@ -79,7 +79,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     font-weight: 400;
-    color: #55859a;
+    color: #BD9391;
 }
 
 a:hover {
@@ -101,14 +101,10 @@ footer a {
 }
 
 h1, h2, h3 {
-    font-weight: lighter;
     font-family: 'Rokkitt', serif;
-
 }
 
 h1 {
-    color: white;
-    
 }
 
 h2 {
@@ -125,8 +121,8 @@ h2 {
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.5em;
+    font-size: 1.1em;
+    line-height: 1.7em;
     color: #333;
 }
 footer {
@@ -208,9 +204,8 @@ img.me {
     float: left;
     margin-left: auto;
     margin-right: 60px;
-    border-radius: 140px;
     margin-bottom: 40px;
-   
+   box-shadow: 10px 10px #BD9391;
     
 }
 
@@ -222,13 +217,13 @@ input[type="submit"]  {
     color: #fff;
     padding: 10px 20px;
     border: 1px solid #8d9dac;
-    background: #8d9dac;
+    background: #BD9391;
     box-shadow: none;
 
 }
 
 input[type="submit"]:hover {
-    background: #6e7b86;
+    background: #936f6e;
 }
 
 input[type=text],  [type="email"], select, textarea {
