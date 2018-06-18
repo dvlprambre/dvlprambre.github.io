@@ -45,6 +45,7 @@ body {
 
 .container {
          height: 100%;
+    
 }
 
 nav{
@@ -164,15 +165,19 @@ ul.posts li {
 .blurb, .one, .two, .three {
      min-height: 100%;
     padding:100px 25px;
+ 
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 
 .one{
-
+   border-bottom: 1px solid #c1c1c1;
 }
 
 .two{
-    
+       border-bottom: 1px solid #c1c1c1;
 }
 
 .three{
