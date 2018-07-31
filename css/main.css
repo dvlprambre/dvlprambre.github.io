@@ -280,8 +280,8 @@ form {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: transparent;
-    color: #2f2f2f;
+    background-color: black;
+    color: #fff;
     text-align: center;
     padding: 5px 0;
     border: 1px solid #2f2f2f;
