@@ -1,0 +1,12 @@
+body {background-color: #6aa2a2; font-family: 'Raleway', sans-serif;}
+.wrapper {
+    border: 1px dotted grey;
+    width: 500px;
+    height: 300px;
+margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+background-color: white;
+}
+
+img {float: left; width: 40%;padding-right: 8px}
