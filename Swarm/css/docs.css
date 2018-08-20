@@ -1,0 +1,317 @@
+body {
+    height: 100%;
+      margin:0;
+   padding:0;
+  font-family: 'Roboto', sans-serif;
+        color: #86939E;
+    padding-bottom: 60px
+}
+
+
+.doc-head {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    margin: 0 auto;
+  	background-color:#662d91
+}
+
+
+.outer-frame {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+
+
+header h1{
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    color: #374252;
+    text-align: center;
+    margin: 60px 0px
+}
+
+.btn-l-half-width {
+    width: 47%;
+    margin: 15px 1.5%;
+}
+
+
+.l-one-third-width {
+      float:left;
+    width: 32%;
+	margin:10px 1%;
+    
+}
+
+.l-two-third-width {
+      float:left;
+    width:64%;
+	margin:10px 1%;
+    
+}
+
+h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    color: #374252;
+    
+}
+
+h3, h4{color: #374252;
+    font-weight: 300;
+    padding: 15px 0px}
+
+p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 300;
+    color: #86939E;
+}
+
+.text-16px a {
+    font-weight: 400;
+}
+
+.square-btn{
+    line-height: 0px;
+    padding: 0px
+    
+}
+
+.btn {
+    display: inline-block;
+    height: 50px;
+    padding: 0 20px;
+    color: #ffffff !important;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 50px;
+    transition: all 0.1s ease-in;
+    background: #4a1c6b;
+    border: none;
+    border-radius: 2px;
+    box-shadow: none;
+    -webkit-appearance: none;
+    outline: none !important;
+    min-width: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.btn.btn-l-half-width {
+    float: left;
+}
+
+.btn:hover {
+    color: #ffffff;
+    background: #5c2b81;
+}
+
+.row >.btn {line-height: 0px;
+    padding: 150px 50px;
+}
+
+.btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 27px;
+    font-weight: 300
+}
+
+.btn a:visited {
+    color: #fff;
+    text-decoration: none}
+
+.text-9e1f63 {
+    color: #9e1f63
+}
+
+.square-btn h1{
+        line-height: 0px;
+    padding: 0px;
+}
+
+.outer-frame.l-full-width-small {
+    margin-top: 0px;
+}
+
+.current  a {
+    font-weight: bold
+}
+
+
+
+.side-nav li a{
+    float: none;
+    text-decoration: none
+}
+
+.side-nav ul li {
+    padding: 5px 0px;
+    margin: 5px 0px
+}
+
+@media (max-width: 840px) {
+  .l-one-third-width, .l-two-third-width {
+	width:100%;
+	margin:0;
+}
+}
+
+#primary_nav_wrap
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #662d91;
+  
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	padding:0;
+    width: 1024px;
+     
+}
+
+#primary_nav_wrap ul a
+{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	line-height:50px;
+	padding:0 20px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6
+}
+
+#primary_nav_wrap ul ul
+{
+	left: -9999px;
+	position:absolute;
+	top:100%;
+	background:#fff;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:50%;
+   
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	overflow:hidden;
+    width: 50%;
+    float: left;
+    padding: 5px 0; 
+  color: black
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	left: auto;
+    display:block;
+}
+
+
+input[type=checkbox] {
+  display: none;
+}
+
+
+@media screen and (max-width: 480px) {
+  
+  .toggle {
+    width: 35px;
+    height: 4px;
+    background-color: black;
+    margin: 6px;
+}
+     .dropdown-content {
+    display: none;
+}
+     
+     .show {
+       display: block
+    }
+    
+  #primary_nav_wrap ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+      max-height:100%
+    
+}
+
+#primary_nav_wrap li a {
+    display: block;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+    
+    #primary_nav_wrap
+{
+    position: relative;
+    top: 0;
+ 
+}
+    #primary_nav_wrap ul ul
+    {
+        left: 0px;
+        position:relative;
+        display: inline;
+        
+    }
+    
+    #primary_nav_wrap ul ul a
+{
+    width: 100%;
+     padding: 5px 10px;
+}
+
+    .doc-head {
+        height: 100%
+    }  
+
+}
