@@ -1,4 +1,3 @@
-/*I made some notes throughout on where I got stuck*/ 
  * {
      box-sizing: border-box;
 }
@@ -7,15 +6,13 @@
      font-family: 'Montserrat', sans-serif;
 }
  .header {
-    background-image: linear-gradient(rgba(0,0,0,.77), rgba(0,0,0,.77)), url('../images/hero.png');
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('../images/hero.png');
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      position: relative;
      height: 100% 
 }
-/*Overlay seems to dark so I would've asked to confirm the color and opacity */
-
  .header-text {
      position: absolute;
      top: 50%;
@@ -41,23 +38,16 @@
      height: 200px;
      width: 200px;
 }
-/*Stumped on how to center the images in the boxes consistently.*/
-
  img.logo {
      background-color: #b5121b;
      padding: 10px 50px 10px 50px;
      margin-left: 10%
 }
-/*Had trouble figuring out how to have the nav text stay at the bottom with the logo */
- 
  .row::after {
      content: "";
      clear: both;
      display: table;
 }
-
-/*hamburger*/
-
  #menuShowHide {
      position:absolute;
      left:-999em;
@@ -79,9 +69,6 @@
      text-decoration:none;
      color:#000;
 }
-/*end hamburger*/
-
-
  @media (max-width:500px) {
      body {
          padding:0;
