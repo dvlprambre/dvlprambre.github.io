@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<title>Ambre Chapman : Web Developer &amp; WordPress Ace</title>
+		<meta name="description" content="Ambre Chapman, web developer, offering freelance web development and WordPress services in Georgia.">
+        <meta name="keywords" content="ambre chapman, web developer, front end web developer, web developer atlanta, web developer atlanta ga, web designer, web designer atlanta, web designer atlanta ga, web development, atlanta website developer, atlanta ga web developer, atlanta ga web designer, wordpress, xhtml, css, web developer tucker ga " />
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		<nav>
+    		<ul>
+                <li class="left site-title"><a href="#home">Ambre Chapman</a></li>
+	        	<li><a href="#about">About</a></li>
+        		<li><a href="#work">My Work</a></li>
+			<li><a href="#contact">Contact</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    	
+            <section class="one" id="about">
+                <h2>Hi, I'm Ambre</h2>
+
+			<p class="frost">
+                <img class="me" src="me.jpg">
+                My name is Ambre Chapman and I am a front end web develoepr. I attended the University of Georgia where I received my BA, and Gwinnett Technical College, where I recieved a degree in Web Design &amp; Development. I love front end development and I don't know where I would be without Chrome Developer Tools. More about me: I am a serial crafter and I am currently reading all the Harry Potter books for the first time (spoiler: they are really good).<br><a href="A%20Chapman%20Resume.pdf" download>Download My Resume</a></p>
+                
+               
+		</section>
+		<section class="two" id="work">
+            <h2>My Work</h2>
+            <p class="sub">A few examples of sites I have developed</p>
+         
+                 <div class="frost">
+             <div class="left-col">
+                <a href="http://www.bwhi.org"><img class="example" src="bwhi.png"></a> 
+                 <div class="bankers tooltip">
+                 <img class="example nope" src="bankers.png" alt="">
+                            <span class="tooltiptext">Not authorized to link</span>
+                 </div>
+                                 <a href="http://mypassion4life.org/"><img class="example" src="Passion.png"></a> 
+
+                 
+                </div>
+                <div class="right-col">
+                    <a href="http://www.georgiatradeschool.com/"><img class="example" src="tradeschool.png"></a>
+                      
+                    <a href="AP/" target="_blank"><img class="example" src="Applied.png" ></a>
+                                    <a href="http://goldenagespeech.com/"><img class="example" src="Screen%20Shot%20Golden.png"></a> 
+
+                </div>
+            </div>
+            
+           
+		</section>
+		<section class="three" id="contact">
+            <h2>Contact Me</h2>
+            <div class="frost">
+                <div class="left-col">
+                    <p>
+                    I am also available for freelance web development or consulting. I enjoy working with small businesses, non&ndash;profits, service-based entrepreneurs, niche brands, and restaurants/hospitality. You also can find me online on<a href="https://www.linkedin.com/in/ambre-chapman-04811329"> LinkedIn</a> and <a href="https://github.com/dvlprambre">Github</a>, or email me at <a href="mailto:ambrechapman@gmail.com">ambrechapman@gmail.com</a>. Thanks for visiting.
+                    </p>
+                </div>
+                  <div class="right-col">
+            <form action="https://formspree.io/ambrechapman@gmail.com"
+                  method="POST">
+                <label>Name:</label> 
+                <input type="text" name="name"><br><br>
+                 <label>Email:</label>
+                <input type="email" name="_replyto"><br><br>
+                 <label>Message:</label>
+                 <textarea name="message" cols="30"></textarea><br><br>
+                 <input type="hidden" name="_subject" value="New submission!" />
+                 <input type="text" name="_gotcha" style="display:none" />
+                <input type="submit" value="SUBMIT">
+            </form>
+                </div>
+            </div>
+             
+		</section>
+		<footer>
+			<p><small>&copy; 2018 Ambre Chapman &#124; Atlanta, GA</small></p>
+            	
+		</footer>
+		</div><!-- /.container -->
+		
+	</body>
+    <script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      // event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</html>

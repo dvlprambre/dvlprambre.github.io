@@ -1,75 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title>Ambre Chapman : Web Developer &amp; WordPress Ace</title>
-		<meta name="description" content="Ambre Chapman, web developer, offering freelance web development and WordPress services in Georgia.">
-        <meta name="keywords" content="ambre chapman, web developer, front end web developer, web developer atlanta, web developer atlanta ga, web designer, web designer atlanta, web designer atlanta ga, web development, atlanta website developer, atlanta ga web developer, atlanta ga web designer, wordpress, xhtml, css, web developer tucker ga " />
-		<link rel="stylesheet" type="text/css" href="css/main.css">
-        	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+   <title></title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<style>
+    html {
+        box-sizing: border-box;
 
-	</head>
-	<body>
-		<!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
-		<nav>
-    		<ul>
-                <li class="left site-title"><a href="#home">Ambre Chapman</a></li>
-	        	<li><a href="#about">About</a></li>
-        		<li><a href="#work">My Work</a></li>
-			<li><a href="#contact">Contact</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    	
-            <section class="one" id="about">
-                <h2>Hi, I'm Ambre</h2>
+}
+    
+    *, *:before, *:after {
+  box-sizing: inherit;
+}
+    body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+    
+    img {
+  max-width: 100%;
+  height: auto;
+}
+    
+    body {
+        height: 100%;
+        color: #5D6063;
+        font-size: 1.2em;
+    line-height: 1.2em;
+        font-family:serif;
+    }
+    
+    header {
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: #fff;
+        border-bottom: 2px solid #e5e5e5;
+        padding: 15px 0px
+        }
+    section {
+        min-height: 100vh;
+        padding-top: 10%;
+        max-width: 960px;
+        margin: auto;
+    }
+        .row {
+        display: flex;
+        }
+        .col {
+          flex: 1;
+            margin: 10px
+        }
+    
+    nav {
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+         text-align: right
+    }
+    nav li {
+        display: inline;
+       padding-left: 20px
+      
+    }
+    
+    a {    
+        color: #5995DA;
+          text-decoration: none
+    }
+    
+    a:hover {
+        text-decoration: underline
+    }
+    
+    p, h1, h2, h3, label {
+        font-family: sans-serif;
+        font-weight: 300;
+        margin-bottom: 20px
+    }
+    
+    input[type=text],input[type=email], textarea {
+        width: 100%;
+            padding: 12px 20px;
+        margin: 8px 0;
 
-			<p class="frost">
-                <img class="me" src="me.jpg">
-                My name is Ambre Chapman and I am a front end web develoepr. I attended the University of Georgia where I received my BA, and Gwinnett Technical College, where I recieved a degree in Web Design &amp; Development. I love front end development and I don't know where I would be without Chrome Developer Tools. More about me: I am a serial crafter and I am currently reading all the Harry Potter books for the first time (spoiler: they are really good).<br><a href="A%20Chapman%20Resume.pdf" download>Download My Resume</a></p>
-                
-               
-		</section>
-		<section class="two" id="work">
-            <h2>My Work</h2>
-            <p class="sub">A few examples of sites I have developed</p>
+    }
+    input[type=submit] {
+         background-color: #5995DA;
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 3px;
+        font-size: 1.0rem
+    }
+    
+   .fab {
+        font-size: 1.5em
+    }
+    
+    footer {
+        text-align: center;
+        background-color: #e5e5e5;
+        font-size: .5em
+    }
+    
+    @media (max-width: 400px) {
+          .row {
+            display: block;
+          }
+        
+        section {
+               padding-top: 20%;
+        }
+        }
+</style>
+<body>
+   <div class="container">
+      <header class="header">
+         <nav class="nav">
+            <ul>
+               <li><a href="#one">hello</a></li>
+               <li><a href="#two">my work</a></li>
+               <li><a href="#three">experience</a></li>
+               <li><a href="#four">contact</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+          <section id="one">
+              <h2>Hi, I&#39;m Ambre.</h2>
+          <div class="row">
+              <div class="col"> <p>My name is Ambre Chapman Armstrong and I am a front end web developer working in Atlanta, GA. I attended the University of Georgia where I received my BA, and Gwinnett Technical College, where I recieved a degree in Web Design &amp; Development. I love front end development. I learn something new about it pretty much everyday.</p>
          
-                 <div class="frost">
-             <div class="left-col">
-                <a href="http://www.bwhi.org"><img class="example" src="bwhi.png"></a> 
-                 <div class="bankers tooltip">
-                 <img class="example nope" src="bankers.png" alt="">
-                            <span class="tooltiptext">Not authorized to link</span>
-                 </div>
-                                 <a href="http://mypassion4life.org/"><img class="example" src="Passion.png"></a> 
-
-                 
-                </div>
-                <div class="right-col">
-                    <a href="http://www.georgiatradeschool.com/"><img class="example" src="tradeschool.png"></a>
-                      
-                    <a href="AP/" target="_blank"><img class="example" src="Applied.png" ></a>
-                                    <a href="http://goldenagespeech.com/"><img class="example" src="Screen%20Shot%20Golden.png"></a> 
-
-                </div>
+              </div>
             </div>
-            
-           
-		</section>
-		<section class="three" id="contact">
-            <h2>Contact Me</h2>
-            <div class="frost">
-                <div class="left-col">
-                    <p>
-                    I am also available for freelance web development or consulting. I enjoy working with small businesses, non&ndash;profits, service-based entrepreneurs, niche brands, and restaurants/hospitality. You also can find me online on<a href="https://www.linkedin.com/in/ambre-chapman-04811329"> LinkedIn</a> and <a href="https://github.com/dvlprambre">Github</a>, or email me at <a href="mailto:ambrechapman@gmail.com">ambrechapman@gmail.com</a>. Thanks for visiting.
-                    </p>
-                </div>
-                  <div class="right-col">
-            <form action="https://formspree.io/ambrechapman@gmail.com"
+          </section>
+          
+          <section id="two">
+               <h2>A few sites I have developed</h2>
+            <div class="row">
+              <div class="col"><a href="http://www.bwhi.org/" target="_blank"><img src="img/bwhi.png"></a></div>
+              <div class="col"><a href="http://www.bankersworksite.com/" target="_blank"><img src="img/bankers.png"></a></div>
+              <div class="col"><a href="http://goldenagespeech.com/" target="_blank"><img src="img/Screen-Shot-Golden.png"></div>
+            </div>
+          
+          <div class="row">
+              
+              <div class="col"><a href="http://www.iamambre.com/AP/" target="_blank"><img src="img/Applied.png"></a></div>
+              <div class="col"><a href="http://www.georgiatradeschool.com/" target="_blank"><img src="img/tradeschool.png"></a></div>
+              <div class="col"><a href="http://mypassion4life.org/" target="_blank"><img src="img/Passion.png"></a></div>
+            </div>
+          </section>
+        
+          <section id="three">
+               <h2>Experience</h2>
+           <div class="row">
+              <div class="col">
+                 <p><b>Genuine Parts Company</b> &#47; Front End Developer, Jr &#40;Digital Experience&#41; &#47; October 2018 &ndash; Present</p>
+      <p><b>Freelance</b> &#47; WordPress Developer &#47; April 2017 &ndash; Present</p>
+      <p><b>nThrive</b> &#47; Junior Web Developer &#47; October 2017 &ndash; June 2018</p>
+      <p><b>The Boss Group</b> &#47; Contract Web Developer &#47; March 2016 &ndash; June 2017</p>
+      <p><b>Applied Systems</b> &#47; Web Development Intern &#47; January 2016 &ndash; March 2016</p>
+      <p><b>Sent Media Marketing</b> &#47; WordPress Developer Intern &#47; June 2015 &ndash; September 2015</p>
+      <p><b>AGCO Corporation</b> &#47; Senior Executive Assistant &#47; January 2012 &ndash; October 2015</p>
+      <p><b>The King Center for Nonviolent Social Change</b> &#47; Intern &#47; February 2011 &ndash; June 2011</p>
+      <p><b>Midtown Alliance</b> &#47; Administrative Assistant &#47; July 2009 &ndash; January 2011</p>
+      <h3>Education</h3>
+      <p><b>Gwinnett Technical College</b> &#47; AA &#47; Web Design &amp; Development</p>
+      <p><b>University of Georgia</b> &#47; BA &#47; History</p></div> 
+               </div>
+            </div>
+          </section>
+         
+          <section id="four">
+               <h2>Contact Me</h2>
+            <div class="row">
+              <div class="col"><p>If you have any questions ot just want to say hello, please fill out the form or send me an email at ambrechapman at gmail dot com. You can also find me online using the links below.
+                  
+                  </p>
+                  
+                  <p><a href="https://www.linkedin.com/in/ambre-chapman-04811329"><span class="fab fa-linkedin"></span></a> <a href="https://github.com/dvlprambre"><span class="fab fa-github-alt"></span></a> <a href="https://www.yelp.com/user_details?userid=5nvkTiePdNDcpjIqyiYnBA"><span class="fab fa-yelp"></span></a></p></div>
+              <div class="col"> 
+                       <form action="https://formspree.io/ambrechapman@gmail.com"
                   method="POST">
                 <label>Name:</label> 
                 <input type="text" name="name"><br><br>
@@ -82,40 +205,29 @@
                 <input type="submit" value="SUBMIT">
             </form>
                 </div>
+
             </div>
-             
-		</section>
-		<footer>
-			<p><small>&copy; 2018 Ambre Chapman &#124; Atlanta, GA</small></p>
-            	
-		</footer>
-		</div><!-- /.container -->
-		
-	</body>
-    <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
+          </section>
+      </main>
+      <footer>I for real did this myself, thankyouverymuch</footer>
+   </div>
+      <script>
+         $(document).ready(function(){
+           $("a").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
-      // Prevent default anchor click behavior
-      // event.preventDefault();
+             if (this.hash !== "") {
+           
+               var hash = this.hash;
 
-      // Store hash
-      var hash = this.hash;
-
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-      });
-    } // End if
-  });
-});
-</script>
+               $('html, body').animate({
+                 scrollTop: $(hash).offset().top
+               }, 800, function(){
+            
+                 window.location.hash = hash;
+               });
+             } 
+           });
+         });
+      </script>
+</body>
 </html>
